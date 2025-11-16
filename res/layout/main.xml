@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bga">
+	
+	<Button
+	    android:id="@+id/find_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:focusable="true"
+	    android:layout_marginTop="@dimen/cinc"
+	    android:layout_marginBottom="@dimen/cinc"
+	    android:background="@drawable/bshape"
+	    android:textColor="@drawable/rshape"
+	    android:textSize="@dimen/ocho"
+	    android:text="FIND">
+	</Button>
+	
+	<EditText
+		android:id="@+id/word_tv"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:maxLength="32"
+		android:layout_marginTop="@dimen/doss"
+		android:layout_marginBottom="@dimen/doss"
+		android:layout_marginLeft="@dimen/doss"
+		android:layout_marginRight="@dimen/doss"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/border"
+		android:gravity="center"
+		android:textSize="@dimen/trce"
+		android:textColor="@color/bluB"
+		android:textColorHint="@color/grnB"
+		android:text="Okul"
+		android:inputType="text"
+		android:singleLine="true"
+		android:maxLines="1">
+	</EditText>
+
+	<EditText
+    	    android:id="@+id/result_tv"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="@dimen/ytbs"
+            android:layout_marginTop="@dimen/doss"
+            android:layout_marginBottom="@dimen/doss"
+			android:layout_marginLeft="@dimen/doss"
+            android:layout_marginRight="@dimen/doss"
+			android:layout_centerHorizontal="true"
+			android:background="@drawable/border"
+			android:editable="false"
+			android:gravity="center"
+            android:textSize="@dimen/trce"
+            android:textColor="@color/bluB"
+            android:textColorHint="@color/grnB"
+            android:maxLines="10">
+        </EditText>
+	
+	<Button
+	    android:id="@+id/exit_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:layout_marginTop="@dimen/cinc"
+	    android:layout_marginBottom="@dimen/cinc"
+	    android:background="@drawable/bshape"
+	    android:textColor="@drawable/rshape"
+	    android:textSize="@dimen/ocho"
+	    android:text="EXIT">
+	</Button>
+</LinearLayout>

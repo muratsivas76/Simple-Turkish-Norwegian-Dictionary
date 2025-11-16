@@ -1,0 +1,15 @@
+javac -source 1.8 -target 1.8 -sourcepath . -cp obj -g -proc:none -nowarn -O -d obj src/net/murat/nodict/TRNOWord.java
+
+cd tool
+
+javac -source 1.8 -target 1.8 -sourcepath . -cp ../obj:. -g -proc:none -nowarn -O -d . HashMapCreator.java
+
+java -cp ../obj:. HashMapCreator
+
+mv -fv hashmap.dat ../assets
+
+cd ..
+
+if no exists NoDict.keystore here, run "./kstore.sh"
+
+./make.sh

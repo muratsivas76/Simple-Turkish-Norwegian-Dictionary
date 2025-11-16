@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <dimen name="cero">0px</dimen>
+	<dimen name="unoo">1px</dimen>
+	<dimen name="doss">2px</dimen>
+	<dimen name="tres">3px</dimen>
+	<dimen name="cinc">5pt</dimen>
+	<dimen name="minc">5px</dimen>
+	<dimen name="seis">6pt</dimen>
+	<dimen name="siet">7pt</dimen>
+	<dimen name="ocho">8pt</dimen>
+	<dimen name="nuev">9pt</dimen>
+	<dimen name="diez">10pt</dimen>
+	<dimen name="trce">13pt</dimen>
+	<dimen name="diss">16pt</dimen>
+	<dimen name="vedo">15pt</dimen>
+	<dimen name="okzo">18pt</dimen>
+	<dimen name="vtmr">20pt</dimen>
+	<dimen name="novn">90pt</dimen>
+	<dimen name="vtre">23pt</dimen>
+	<dimen name="vctr">24pt</dimen>
+	<dimen name="tsie">37pt</dimen>
+	<dimen name="elli">50pt</dimen>
+	<dimen name="altm">60pt</dimen>
+	<dimen name="minw">256px</dimen>
+	<dimen name="minh">156px</dimen>
+	<dimen name="maxw">256px</dimen>
+	<dimen name="maxh">75px</dimen>
+	<dimen name="ytbs">240dp</dimen>
+	<dimen name="mtbs">500dp</dimen>
+</resources>

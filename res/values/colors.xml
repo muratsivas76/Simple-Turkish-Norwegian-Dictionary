@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="whtA">#FFFFFF</color>
+    <color name="whtB">#EEEEEE</color>
+    <color name="redA">#FF0000</color>
+    <color name="redB">#AA0000</color>
+    <color name="grnA">#00FF00</color>
+    <color name="grnB">#00DD00</color>
+    <color name="bluA">#0000FF</color>
+    <color name="bluB">#0000AA</color>
+    <color name="bluC">#3333DC</color>
+    <color name="blac">#000000</color>
+    <color name="blad">#777777</color>
+    <color name="ylwA">#FFFF00</color>
+    <color name="ylwB">#FFFFE0</color>
+    <color name="trtr">#909090</color>
+    <color name="cucu">#535353</color>
+</resources>
